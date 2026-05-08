@@ -1,0 +1,6 @@
+file,sha256,year,rows,cols,missing_pct,columns
+2015.csv,44607169fc42,2015,158,12,0.0,Country | Region | Happiness Rank | Happiness Score | Standard Error | Economy (GDP per Capita) | Family | Health (Life Expectancy) | Freedom | Trust (Government Corruption) | Generosity | Dystopia Residual
+2016.csv,d529d6c6e31a,2016,157,13,0.0,Country | Region | Happiness Rank | Happiness Score | Lower Confidence Interval | Upper Confidence Interval | Economy (GDP per Capita) | Family | Health (Life Expectancy) | Freedom | Trust (Government Corruption) | Generosity
+2017.csv,94c0137c411e,2017,155,12,0.0,Country | Happiness.Rank | Happiness.Score | Whisker.high | Whisker.low | Economy..GDP.per.Capita. | Family | Health..Life.Expectancy. | Freedom | Generosity | Trust..Government.Corruption. | Dystopia.Residual
+2018.csv,5bf2466639ec,2018,156,9,0.07,Overall rank | Country or region | Score | GDP per capita | Social support | Healthy life expectancy | Freedom to make life choices | Generosity | Perceptions of corruption
+2019.csv,90cfd6db5d85,2019,156,9,0.0,Overall rank | Country or region | Score | GDP per capita | Social support | Healthy life expectancy | Freedom to make life choices | Generosity | Perceptions of corruption

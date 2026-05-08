@@ -1,0 +1,21 @@
+column,dtype,missing_pct
+country,str,0.0
+Region,str,59.72
+Happiness Rank,float64,59.72
+happiness_score,float64,0.0
+Standard Error,float64,79.8
+gdp_per_capita,float64,0.0
+social_support,float64,0.0
+life_expectancy,float64,0.0
+freedom,float64,0.0
+trust,float64,0.13
+generosity,float64,0.0
+Dystopia Residual,float64,59.72
+year,int64,0.0
+Lower Confidence Interval,float64,79.92
+Upper Confidence Interval,float64,79.92
+Happiness.Rank,float64,80.18
+Whisker.high,float64,80.18
+Whisker.low,float64,80.18
+Dystopia.Residual,float64,80.18
+Overall rank,float64,60.1

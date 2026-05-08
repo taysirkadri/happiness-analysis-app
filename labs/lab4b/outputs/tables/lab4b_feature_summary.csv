@@ -1,0 +1,11 @@
+feature_name,type,correlation_with_happiness
+gdp_social_interaction,Engineered,0.8504856580505313
+life_expectancy_sq,Engineered,0.7993533074106212
+gdp_per_capita,Original,0.7910633835037073
+life_expectancy,Original,0.778736858788601
+social_support,Original,0.7680416361997842
+freedom,Original,0.5789808583569348
+trust,Original,0.38713770486668436
+generosity_gdp_residual,Engineered,0.14715638639864512
+generosity,Original,0.08858979242288798
+freedom_trust_ratio,Engineered,0.009908264536060574
