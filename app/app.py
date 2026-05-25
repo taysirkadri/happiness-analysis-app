@@ -18,76 +18,86 @@ st.set_page_config(
 # ── Custom CSS ────────────────────────────────────────────────
 st.markdown("""
 <style>
-    .stApp { background-color: #0f1117; }
-    
+    /* Base */
+    .stApp { background-color: #FFFFFF; }
+
+    /* Sidebar */
     [data-testid="stSidebar"] {
-        background-color: #1a1a2e;
-        border-right: 1px solid #2980b9;
+        background-color: #F8F8F8;
+        border-right: 1px solid #E0E0E0;
     }
-    
+
+    /* Metrics */
     [data-testid="stMetric"] {
-        background-color: #1e2538;
-        border: 1px solid #2980b9;
-        border-radius: 10px;
-        padding: 15px;
+        background-color: #F8F8F8;
+        border: 1px solid #E0E0E0;
+        border-radius: 8px;
+        padding: 12px;
     }
     [data-testid="stMetricValue"] {
-        color: #f39c12 !important;
-        font-size: 2rem !important;
+        color: #111111 !important;
+        font-size: 1.8rem !important;
     }
     [data-testid="stMetricLabel"] {
-        color: #adc4d9 !important;
+        color: #666666 !important;
     }
 
+    /* Tabs */
     .stTabs [data-baseweb="tab-list"] {
-        background-color: #1a1a2e;
-        border-radius: 10px;
-        padding: 4px;
+        background-color: #F0F0F0;
+        border-radius: 6px;
+        padding: 3px;
     }
     .stTabs [data-baseweb="tab"] {
-        color: #adc4d9;
-        border-radius: 8px;
+        color: #444444;
+        border-radius: 5px;
     }
     .stTabs [aria-selected="true"] {
-        background-color: #2980b9 !important;
-        color: white !important;
+        background-color: #111111 !important;
+        color: #FFFFFF !important;
     }
 
-    h1, h2, h3 { color: #ffffff !important; }
-    p, li { color: #c8d8e8; }
+    /* Typography */
+    h1, h2, h3 { color: #111111 !important; }
+    p, li { color: #333333; }
 
+    /* Prediction box */
     .predict-box {
-        background: linear-gradient(135deg, #1e3a5f, #2980b9);
-        border-radius: 15px;
+        background-color: #111111;
+        border-radius: 10px;
         padding: 20px;
         text-align: center;
         margin-top: 20px;
     }
     .predict-score {
-        font-size: 3rem;
+        font-size: 2.8rem;
         font-weight: bold;
-        color: #f39c12;
+        color: #FFFFFF;
     }
     .predict-label {
-        color: #ffffff;
-        font-size: 0.95rem;
+        color: #AAAAAA;
+        font-size: 0.9rem;
         margin-top: 5px;
     }
     .predict-sublabel {
-        color: #adc4d9;
+        color: #666666;
         font-size: 0.75rem;
-        margin-top: 8px;
+        margin-top: 6px;
     }
 
+    /* Hint box */
     .hint-box {
-        background-color: #1e2538;
-        border-left: 3px solid #2980b9;
-        border-radius: 5px;
+        background-color: #F8F8F8;
+        border-left: 3px solid #111111;
+        border-radius: 4px;
         padding: 10px 14px;
         margin-top: 12px;
         font-size: 0.8rem;
-        color: #adc4d9;
+        color: #444444;
     }
+
+    /* Dividers */
+    hr { border-color: #E0E0E0; }
 </style>
 """, unsafe_allow_html=True)
 
