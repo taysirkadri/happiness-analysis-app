@@ -222,14 +222,14 @@ with tab1:
         y="Feature",
         orientation="h",
         color="Coefficient",
-        color_continuous_scale=["#1a4a7a", "#2980b9", "#f39c12"],
+        color_continuous_scale=["#EEEEEE", "#888888", "#111111"],
         template="plotly_dark",
         title="Which features predict happiness most?"
     )
     fig.update_layout(
-        plot_bgcolor="#1e2538",
-        paper_bgcolor="#1e2538",
-        font_color="#c8d8e8",
+        plot_bgcolor="#FFFFFF",
+        paper_bgcolor="#FFFFFF",
+        font_color="#111111",
         showlegend=False,
         coloraxis_showscale=False,
         height=400,
@@ -266,9 +266,9 @@ with tab2:
         name="Perfect prediction"
     ))
     fig2.update_layout(
-        plot_bgcolor="#1e2538",
-        paper_bgcolor="#1e2538",
-        font_color="#c8d8e8",
+        plot_bgcolor="#FFFFFF",
+        paper_bgcolor="#FFFFFF",
+        font_color="#111111",
         xaxis_title="Actual Happiness Score",
         yaxis_title="Predicted Happiness Score",
         template="plotly_dark",
@@ -294,9 +294,9 @@ with tab3:
         ))
         fig3.add_hline(y=0, line_color="#f39c12", line_dash="dash", line_width=2)
         fig3.update_layout(
-            plot_bgcolor="#1e2538",
-            paper_bgcolor="#1e2538",
-            font_color="#c8d8e8",
+            plot_bgcolor="#FFFFFF",
+            paper_bgcolor="#FFFFFF",
+            font_color="#111111",
             xaxis_title="Predicted",
             yaxis_title="Residual",
             title="Residuals vs Predicted",
@@ -313,9 +313,9 @@ with tab3:
             color_discrete_sequence=["#2980b9"]
         )
         fig4.update_layout(
-            plot_bgcolor="#1e2538",
-            paper_bgcolor="#1e2538",
-            font_color="#c8d8e8",
+            plot_bgcolor="#FFFFFF",
+            paper_bgcolor="#FFFFFF",
+            font_color="#111111",
             xaxis_title="Residual",
             yaxis_title="Count",
             height=380
